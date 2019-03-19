@@ -20,6 +20,15 @@ namespace SimpleSolution
 
             Assert.AreEqual(5, sut.Add(2, 3));
         }
+
+        [Test]
+        public void Test2()
+        {
+            SimpleProgram sut = new SimpleProgram();
+
+            Assert.AreEqual(6, sut.Add(2, 3));
+        }
     }
+}
 }
 
